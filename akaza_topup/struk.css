@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background: linear-gradient(180deg, rgba(16, 16, 18, 0.452) 0%, rgba(22, 22, 23, 0.363) 100%), url('asset/akazachibi.png') no-repeat center center / cover;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+#card {
+    width: 350px;
+    max-width: 80%;
+
+    background: #0a0a0a;
+    padding: 20px;
+    border-radius: 20px;
+
+    border: 2px solid rgb(0, 6, 72);
+
+
+    box-shadow: 
+        0 0 10px rgb(255, 0, 0),
+        0 0 20px red,
+        0 0 40px red;
+}
+
+/* GAMBAR */
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* JUDUL */
+h2 {
+    text-align: center;
+    font-size: 26px;
+    color: rgb(255, 0, 0);
+    margin: 10px 0;
+}
+
+/* GARIS */
+.line {
+    height: 2px;
+    width: 70%;
+    margin: 10px auto;
+    background: red;
+    box-shadow: 0 0 10px red;
+}
+
+/* ROW */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px 0;
+    font-size: 18px;
+
+    border-bottom: 1px solid rgba(255,0,0,0.3);
+}
+
+/* kiri */
+.row span:first-child {
+    color: #bbb;
+}
+
+/* kanan */
+.row span:last-child {
+    color: white;
+    font-weight: bold;
+}
+
+/* TOTAL */
+.total {
+    margin-top: 15px;
+    padding: 14px;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 18px;
+    color: yellow;
+
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+}
+
+/* FOOTER */
+.footer-line {
+    width: 60%;
+    height: 2px;
+    background: #aaa;
+    margin: 15px auto;
+}
+
+/* BUTTONS */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 0 10px red;
+}
+
+.button:hover {
+    background: darkred;
+}
+
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+}
